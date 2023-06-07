@@ -32,7 +32,7 @@ const expenses = [
   },
 ];
 const expenseList=expenses.map((expense)=>{
-  return<ExpenseItem
+  return <ExpenseItem
   title={expense.title}
   amount={expense.amount}
   date={expense.date}
